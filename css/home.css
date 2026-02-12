@@ -1,20 +1,22 @@
-/*Fonts Thingies*/
+/*======================================= HTML TAGS CONFIGS =======================================*/
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/*Navigation Configs*/
 nav a {
     text-decoration: none;
     color: blue;
 } 
 
+/*============================================ CLASSES ============================================*/
+/*===== BACKGROUNDS =====*/
 .main-background {
-    background-image: url("/assets/images/patrick.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
-/*Classes*/
-.section-divider {
+/*===== BORDERS =====*/
+.section-border {
     border: 2px solid;
     border-radius: 5px;
     padding: 10px;
@@ -30,6 +32,13 @@ nav a {
     padding: 5px;
     border-color: black;
 }
+
+/*===== CARDS =====*/
+.cards-layout {
+    background-color: antiquewhite;
+}
+
+/*===== TEXT CONFIGS =====*/
 .center-text {
     text-align: center;
 }
