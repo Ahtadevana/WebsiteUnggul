@@ -26,16 +26,22 @@ nav a {
 }
 
 /*===== BORDERS =====*/
+#card-container1 {
+    display: flex;
+    justify-content: center;
+}
 .hero-border {
     border-width: 2px;
     border-style: hidden;
-    padding: 150px;
+    padding: 130px;
 }
 .section-border {
-    background-color: #aaa;
-    border-width: 2px;
-    border-style: hidden;
-    padding: 10px;
+    width: 780px;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
 }
 .inner-border {
     border-width: 1px;
@@ -46,24 +52,39 @@ nav a {
 .nav-border {
     border-width: 2px;
     border-style: hidden;
-    padding: 25px;
+    padding: 20px;
+}
+.card-margin {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*===== POSITIONING =====*/
+.company-logo {
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 20px;
 }
 
 /*===== BUTTONS =====*/
 .nav-button {
-    color: white;
+    color: #ddd;
     border-style: hidden;
     border-width: 0px 2px;
     padding: 5px;
 }
+
 .button {
-    color: black;
+    color: white;
     background-color: #ff7e26;
     border-color: #ffa472;
     border-style: outset;
     border-radius: 5px;
     padding: 5px;
+    box-shadow: 5px 5px 10px black;
 }
+
 
 /*===== CARDS =====*/
 .cards-layout {
@@ -75,15 +96,15 @@ nav a {
     text-align: center;
 }
 .hero-text {
-    font-size: 50px;
-    text-shadow: 
+    font-size: 60px;
+    text-shadow:
         0 0 25px black, 
         0 0 50px black,
         0 0 75px black;
 }
 .large-text {
     font-size: 30px;
-    text-shadow: 
+    text-shadow:
         0 0 25px black, 
         0 0 50px black;
 }
@@ -93,6 +114,17 @@ nav a {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+.montserrat-button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*===== USER INTERACTION =====*/
+.nav-button:hover {
+    color: white;
 }
 
 /*============================================== IDs ==============================================*/
